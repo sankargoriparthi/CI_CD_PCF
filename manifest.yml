@@ -1,0 +1,6 @@
+---
+applications:
+- name: CI_CD_PCF
+  instances: 1
+  memory: 800m
+  path: target/CI_CD_PCF-0.0.1-SNAPSHOT.jar
